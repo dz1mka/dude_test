@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 2925837993940759523}
   - component: {fileID: -1953088491664595939}
   - component: {fileID: -521474917691113739}
+  - component: {fileID: 4653724024829291262}
   m_Layer: 0
   m_Name: platformZSplit
   m_TagString: platformZSplit
@@ -427,6 +428,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 84f9bc7fd110d43cbbcd517cbe9bd72e, type: 3}
+--- !u!65 &4653724024829291262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2925837993950265397}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: -4.5}
 --- !u!1 &2925837993950265399
 GameObject:
   m_ObjectHideFlags: 0

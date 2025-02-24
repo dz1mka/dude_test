@@ -896,6 +896,7 @@ GameObject:
   - component: {fileID: 2920977700628228568}
   - component: {fileID: 4082890260372536593}
   - component: {fileID: -6901549070619193457}
+  - component: {fileID: 5521234525191069286}
   m_Layer: 0
   m_Name: stairsDown
   m_TagString: stairsDown
@@ -977,6 +978,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0bdb7a899ce0741bb6202be0b84351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &5521234525191069286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920977700620933720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 2.45, z: 1}
+  m_Center: {x: 0, y: 1.21, z: 4.77}
 --- !u!1 &2920977700620933722
 GameObject:
   m_ObjectHideFlags: 0
